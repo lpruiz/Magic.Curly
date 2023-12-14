@@ -1,0 +1,84 @@
+.sidebar{
+    margin-top: 10px;
+    width: 60px;
+    height: 10000px;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #ffffff;
+    transition:ease-in-out 0.3s ;
+    overflow: hidden;
+}
+
+
+body{
+    
+    background-color: Pink;
+}
+.sidebar:hover {
+    width: 200px;
+}
+
+.sidebar:hover > .item > .text {
+    opacity: 1;
+}
+
+hr{
+    height: 1px;
+    color: #919191;
+    margin: 15px 0;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.item .icon {
+    width: 40px;
+    height: 35px;
+    flex-shrink: 0;
+    fill: #424242;
+}
+
+
+.item .text{
+    opacity: 0;
+    transition: ease-in-out 0.3;
+    transition-delay: .2s;
+    margin-left: 15px;
+    white-space: nowrap;
+}
+header {
+    background-color: rgb(254, 167, 167);
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    width: 100%;
+ 
+}
+/*Ajustar os itens do site*/
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+.defi{
+        margin-top: -10120px;
+        display: flex;
+        flex-wrap: wrap; /* Permite que os itens se movam para a próxima linha se não houver espaço suficiente */
+        justify-content: space-around; /* Distribui o espaço disponível uniformemente entre os itens */
+    
+}
+.produto {
+    background-color: darksalmon;
+    border: 1px solid #ddd;
+    padding: 10px;
+    padding-bottom: 10px;
+    margin-top: 1000px;
+    margin-bottom: -400px;
+    margin: 150px;
+    width: 290px;
+    text-align: center;
+}
